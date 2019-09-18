@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /FLP
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/flp?serverTimezone=GMT%2b8&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: freedom
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+name: phuso
