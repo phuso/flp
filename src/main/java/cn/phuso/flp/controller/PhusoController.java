@@ -14,7 +14,7 @@ public class PhusoController {
     @GetMapping("/hello")
     public String hello(){
 
-        return "I Love Flower111";
+        return "I Love Flower";
     }
 
     @RequestMapping("/test")
